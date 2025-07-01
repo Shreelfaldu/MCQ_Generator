@@ -55,6 +55,6 @@ rag-mcq-generator/
 git clone https://github.com/your-username/rag-mcq-generator.git
 cd rag-mcq-generator
 
----
-
+```
+```bash
 streamlit run app.py
