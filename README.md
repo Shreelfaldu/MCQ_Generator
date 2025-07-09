@@ -1,5 +1,7 @@
 # 📘 RAG-Based MCQ Generator
 
+🚀 **Live Demo**: [Click here to try the app](https://mcq-generator-ehcuhgb7gpbfg7g2.centralindia-01.azurewebsites.net/)
+
 A Streamlit-based web app that leverages Retrieval-Augmented Generation (RAG) using **LangChain**, **FAISS**, and **Azure OpenAI** to automatically generate questions from Generative AI-related PDFs.
 
 This tool is designed for educators, learners, and AI enthusiasts who want to quickly extract knowledge and convert it into Multiple Choice Questions (MCQs) and Short Answer Questions.
@@ -35,7 +37,7 @@ This tool is designed for educators, learners, and AI enthusiasts who want to qu
 ---
 
 ## 📁 Folder Structure
-
+```
 rag-mcq-generator/
 │
 ├── app.py # Main Streamlit application
@@ -43,7 +45,7 @@ rag-mcq-generator/
 ├── requirements.txt # All dependencies
 ├── README.md # This file
 └── screenshots/ # UI previews (optional)
-
+```
 
 ---
 
@@ -54,7 +56,7 @@ rag-mcq-generator/
 ```bash
 git clone https://github.com/your-username/rag-mcq-generator.git
 cd rag-mcq-generator
-
 ```
-```bash
+```
 streamlit run app.py
+```
